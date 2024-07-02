@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+     
+</head>
+<style>
+    header {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(0, 200, 255);
+}
+.container {
+    padding: 20px;
+}
+.image-section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #000;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+footer {
+    background: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    background-color: cornflowerblue;
+    height: 30px;
+    width: 100%;
+    padding-left: 5px;
+}
+form{
+    text-align:  left;
+}
+h1{
+    text-decoration-line: underline;
+    text-decoration-style:wavy ;
+    text-decoration-color:black ;
+}
+.about p{
+    background-color: rgb(0, 200, 255); 
+}
+.services ol{
+    background-color: rgb(0, 200, 255); 
+}
+ 
+.form{
+    width: 50%;
+}
+button{
+    margin-left: 80px;
+    background-color: rgb(0, 200, 255);  
+    border: 1px solid  rgb(0, 200, 255);
+    border-radius: 5px;
+}
+.line{
+    width: 100%;
+    height: 5px;
+    color:  rgb(0, 200, 255);
+}
+</style>
+<body>
+    <header>
+        <h1>Welcome to Laundry Wallah  </h1>
+    </header>
+    <div class="container">
+        <section class="about">
+            <h2>About Us</h2>
+            <p>
+                Laundry Wallah / Laundry Mart is your premier laundry service provider. We are dedicated to offering the highest quality laundry services to our valued customers. Our range of services includes washing, drying, ironing, and more, all tailored to meet your needs. With our professional staff and state-of-the-art equipment, we ensure your garments receive the best care possible. Our express services and special garment care options are designed to cater to all your laundry needs efficiently and effectively.
+            </p>
+        </section>
+        <section class="image-section">
+            <img src="download.jpeg" alt="Laundry Image">
+        </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <ol>
+                <li>Washing and Drying</li>
+                <li>Ironing and Folding</li>
+                <li>Dry Cleaning</li>
+                <li>Stain Removal</li>
+                <li>Express Services</li>
+                <li>Special Garment Care</li>
+            </ol>
+        </section>
+        <section class="price-list">
+            <h2>Price List</h2>
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Washing and Drying</td>
+                    <td>Rs 10.00</td>
+                </tr>
+                <tr>
+                    <td>Ironing and Folding</td>
+                    <td>Rs 5.00</td>
+                </tr>
+                <tr>
+                    <td>Dry Cleaning</td>
+                    <td>Rs 20.00</td>
+                </tr>
+                <tr>
+                    <td>Stain Removal</td>
+                    <td>Rs 5.00</td>
+                </tr>
+                <tr>
+                    <td>Express Services</td>
+                    <td>Rs 50.00</td>
+                </tr>
+                <tr>
+                    <td>Special Garment Care</td>
+                    <td>Rs 100.00</td>
+                </tr>
+            </table>
+        </section>
+        <section class="book-now">
+            <h2>Book Now</h2>
+            <div class="form">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+                     <button>Submit</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <div class="line"></div>
+    <footer>
+        <p>Contact us at: info@laundrymart.com</p>
+    </footer>
+
+</body>
+</html>
