@@ -11,7 +11,11 @@ const home = fs.readFileSync("./home.html","utf-8");
 const about = fs.readFileSync("./about.html","utf-8");
 const contact = fs.readFileSync("./contact.html","utf-8");
 
-const server = http.createServer((req,res)=>{
+const server = http.createServer((req,res)=>{       //const server = http.createServer((req,res)=>{
+                                                    //if(req.url==="/home"){
+                                                    //res.writeHead(200,{"Content-Type":"text/html"});
+                                                    //return res.end(home);  
+
     if(req.url==="/home"){
         res.writeHead(200, { "Content-Type": "text/html" });
         return res.end(home);
